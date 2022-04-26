@@ -177,7 +177,7 @@
     border-radius: calc(0.2rem - 1px) calc(0.2rem - 1px) 0 0;
   }
   
-  .li-inline{
+  .inline{
     display: inline;
   }
   
@@ -203,4 +203,11 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
+
+  
+  .col-auto {
+    flex-grow: 1;
+  }
+  
+
   
