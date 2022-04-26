@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Blog</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body class="flex-column min-100-vh">
+
+  <nav class="navbar">
+
+    <ul class="flex-row">
+
+      <li class="li-inline nav-item"><a href="/">Main</a></li>
+
+      <li class="li-inline nav-item"><a href="/dashboard">Go to Dashboard</a></li>
+
+      <li class="li-inline nav-item"><a href="#" id="logout">Logout</a></li>
+
+    </ul>
+
+  </nav>
+
+  <header class="hero">
+
+    <h1 class="app-title"><a href="/dashboard">The Dashboard</a></h1>
+
+  </header>
+
+  <main class="col-auto">
+
+    {{{body}}}
+
+  </main>
+
+  <footer class="footer flex-row">
+
+    <a href="/dashboard/new"> Post</a>
+
+  </footer>
+
+</body>
+
+<script src="/javascript/Logout.js"></script>
+<script src="/javascript/EditPost.js"></script>
+<script src="/javascript/DeletePost.js"></script>
+
+</html>

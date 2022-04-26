@@ -1,0 +1,206 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ccdad0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    line-height: 1.5;
+    font-size: 18px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 750;
+    color: black;
+    line-height: 1.5;
+  }
+  
+  h2 a:visited {
+    color: #788575;
+  }
+  
+  h2 a {
+    color: #ccdad0;
+  }
+  
+  header {
+    margin-top: 45px;
+  }
+  
+  main {
+    margin: 15px auto;
+    width: 95%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    font-size: 1.25rem;
+  }
+  
+  input {
+      width: 100%;
+      border: 3px solid #ccc;
+      background: #FFF;
+      margin: 0 0 7px;
+      padding: 15px;
+  }
+  
+  .card-header h2 {
+    color: #ccdad0;
+  }
+
+  .btn:hover {
+    color: #ccdad0;
+    background-color: #788575;
+    transform: translate(0, 0);
+    box-shadow: 2px 2px black;
+  }
+  
+  .btn {
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding: 5px 5px;
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border-radius: .25rem;
+    color: #ccdad0;
+    background-color: #6f6877;
+    box-shadow: 5px 5px black;
+    transform: translate(-3px, -3px);
+  }
+
+  
+  .navbar {
+    width: 100%;
+    position: fixed;
+    background-color: black;
+  }
+  
+  .nav-item {
+    margin: 0 45px;
+  }
+  
+  .nav-item a {
+    color: #ccdad0;
+  }
+  
+  .hero {
+    padding: 5% 5%;
+    background-color: black;
+    color: #ccdad0;
+  }
+  
+  .hero p {
+    max-width: 70%;
+  }
+  
+  .card-body {
+    padding: 1%;
+  }
+
+  .form-label, .form-input, .form-textarea {
+    display: block;
+  }
+  
+  .form-label {
+    font-size: 1.25rem;
+    margin: 0 0 0 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 3%;
+    margin: 5px 0;
+    font-size: 1.25rem;
+    border: 2px solid #6f6877;
+    border-radius: .25rem;
+  }
+
+  
+  .app-title {
+    font-size: 2.5rem;
+    background-color: #ccdad0;
+    color: black;
+    padding: 0 15px;
+    display: inline-block;
+    border-radius: .25rem;
+    box-shadow: 5px 5px #6f6877;
+  }
+  
+  .app-title a {
+    color: black;
+  }
+  
+  .list-group {
+    padding: 5%;
+  }
+  
+  .list-item {
+    margin-bottom: 15px;
+    padding: 2%;
+    border-radius: .25rem;
+    background-color: #6f6877;
+    color: #ccdad0;
+    text-decoration: none;
+  }
+  
+  .list-item:hover {
+    background-color: black;
+  }
+  
+  .footer a {
+    display: inline-block;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    background-color: black;
+    color: #ccdad0;
+    border-radius: .25rem;
+    text-decoration: none;
+  }
+  
+  .card {
+    margin: 0 0 15px 0;
+    border: 5px solid black;
+    border-radius: .25rem;
+  }
+  
+  .card-header {
+    color: #ccdad0;
+    background-color: black;
+    padding: 1%;
+    border-radius: calc(0.2rem - 1px) calc(0.2rem - 1px) 0 0;
+  }
+  
+  .li-inline{
+    display: inline;
+  }
+  
+  .min-100-vh {
+    min-height: 100vh;
+  }
+  
+  .min-100-vw {
+    min-width: 100vw;
+  }
+  
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
